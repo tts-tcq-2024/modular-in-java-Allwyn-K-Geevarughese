@@ -1,4 +1,4 @@
-package color;
+package colorCoder;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 public class Main {
