@@ -18,7 +18,7 @@ public class Main {
         System.setOut(new PrintStream(outContent));
         Main.printColorCodingManual();
         String expectedOutput = "Color Coding Manual:\n";
-        for (int pairNumber = 1; pairNumber <= numberOfMajorColors * numberOfMinorColors; pairNumber++) {
+        for (int pairNumber = 1; pairNumber <= ColorCoderUtils.numberOfMajorColors * ColorCoderUtils.numberOfMinorColors; pairNumber++) {
             expectedOutput += "Pair Number: " + pairNumber + ", Color Pair: " + ColorCoderUtils.getColorFromPairNumber(pairNumber).toString() + "\n";
         }
         assert(outContent.toString().equals(expectedOutput));
