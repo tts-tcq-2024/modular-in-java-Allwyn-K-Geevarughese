@@ -1,6 +1,7 @@
 package color;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
+import ColorPair;
 public class Main {
     final static String MajorColorNames[] = { "White", "Red", "Black", "Yellow", "Violet" };
     final static int numberOfMajorColors = MajorColorNames.length;
