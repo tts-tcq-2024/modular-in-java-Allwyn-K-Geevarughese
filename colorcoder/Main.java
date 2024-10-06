@@ -5,7 +5,7 @@ import java.io.PrintStream;
 public class Main {
 
     static void testNumberToPair(int pairNumber, MajorColor expectedMajor, MinorColor expectedMinor) {
-        ColorPair colorPair = getColorFromPairNumber(pairNumber);
+        ColorPair colorPair = ColorCoderUtils.getColorFromPairNumber(pairNumber);
         assert(colorPair.getMajor().equals(expectedMajor));
         assert(colorPair.getMinor().equals(expectedMinor));
     }
@@ -29,6 +29,6 @@ public class Main {
         testPairToNumber(MajorColor.BLACK, MinorColor.ORANGE, 12);
         testPairToNumber(MajorColor.VIOLET, MinorColor.SLATE, 25);
         ColorCoderUtils.testPrintColorCodingManual();
-        printColorCodingManual();
+        ColorCoderUtils.printColorCodingManual();
     }
 }
