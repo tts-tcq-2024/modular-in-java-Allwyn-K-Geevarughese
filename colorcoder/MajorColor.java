@@ -1,5 +1,5 @@
 
-package color;
+package colorCoder;
 
 public enum MajorColor implements Color {
     WHITE(0),
