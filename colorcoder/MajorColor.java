@@ -1,7 +1,7 @@
 
 package colorCoder;
 
-public class MajorColor implements Color {
+public enum MajorColor implements Color {
     WHITE(0),
     RED(1),
     BLACK(2),
