@@ -1,5 +1,5 @@
 
-package colorCoder;
+package colorcoder;
 
 public enum MinorColor implements Color {
     BLUE(0),
