@@ -1,10 +1,9 @@
 package colorcoder;
 
 public class ColorCoderUtils {
-    final static String MajorColorNames[] = { "White", "Red", "Black", "Yellow", "Violet" };
-    final static int numberOfMajorColors = MajorColorNames.length;
-    final static String MinorColorNames[] = { "Blue", "Orange", "Green", "Brown", "Slate" };
-    final static int numberOfMinorColors = MinorColorNames.length;
+    
+    final static int numberOfMajorColors = MajorColor.values().length;
+    final static int numberOfMinorColors = MinorColor.values().length;
 
     public static ColorPair getColorFromPairNumber(int pairNumber) {
         int zeroBasedPairNumber = pairNumber - 1;
