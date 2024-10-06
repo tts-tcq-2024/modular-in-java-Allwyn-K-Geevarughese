@@ -28,7 +28,7 @@ public class Main {
         testNumberToPair(5, MajorColor.WHITE, MinorColor.SLATE);
         testPairToNumber(MajorColor.BLACK, MinorColor.ORANGE, 12);
         testPairToNumber(MajorColor.VIOLET, MinorColor.SLATE, 25);
-        testPrintColorCodingManual();
+       
         ColorCoderUtils.printColorCodingManual();
     }
 }
