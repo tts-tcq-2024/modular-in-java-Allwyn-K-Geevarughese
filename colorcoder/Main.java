@@ -1,8 +1,8 @@
-package colorCoder;
+package colorcoder;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
-import colorCoder.MajorColor;
-import colorCoder.MinorColor;
+import colorcoder.MajorColor;
+import colorcoder.MinorColor;
 public class Main {
 
     static void testNumberToPair(int pairNumber, MajorColor expectedMajor, MinorColor expectedMinor) {
