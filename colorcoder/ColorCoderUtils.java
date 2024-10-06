@@ -1,7 +1,4 @@
 package colorcoder;
-import colorcoder.ColorPair;
-import colorcoder.MajorColor;
-import colorcoder.MinorColor;
 
 public class ColorCoderUtils {
     final static String MajorColorNames[] = { "White", "Red", "Black", "Yellow", "Violet" };
