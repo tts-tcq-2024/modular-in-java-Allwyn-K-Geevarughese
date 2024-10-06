@@ -1,5 +1,5 @@
 
-package color;
+package colorCoder;
 
 public class ColorPair {
     private MajorColor majorColor;
