@@ -1,5 +1,5 @@
 
-package color;
+package colorCoder;
 
 public interface Color {
     int getIndex();
