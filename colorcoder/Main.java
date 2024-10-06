@@ -10,7 +10,7 @@ public class Main {
         assert(colorPair.getMinor().equals(expectedMinor));
     }
     static void testPairToNumber(MajorColor major, MinorColor minor, int expectedPairNumber) {
-        assert(getPairNumberFromColor(major, minor) == expectedPairNumber);
+        assert(ColorCoderUtils.getPairNumberFromColor(major, minor) == expectedPairNumber);
     }
 
     static void testPrintColorCodingManual() {
@@ -19,7 +19,7 @@ public class Main {
         Main.printColorCodingManual();
         String expectedOutput = "Color Coding Manual:\n";
         for (int pairNumber = 1; pairNumber <= numberOfMajorColors * numberOfMinorColors; pairNumber++) {
-            expectedOutput += "Pair Number: " + pairNumber + ", Color Pair: " + getColorFromPairNumber(pairNumber).toString() + "\n";
+            expectedOutput += "Pair Number: " + pairNumber + ", Color Pair: " + ColorCoderUtils.getColorFromPairNumber(pairNumber).toString() + "\n";
         }
         assert(outContent.toString().equals(expectedOutput));
     }
