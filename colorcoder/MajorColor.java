@@ -1,7 +1,7 @@
 
 package colorcoder;
 
-public enum MajorColor implements Color {
+public enum MajorColor implements IColorProvider {
     WHITE(0),
     RED(1),
     BLACK(2),
