@@ -7,7 +7,7 @@ public class ColorCoderUtils {
 
     public static ColorPair getColorFromPairNumber(int pairNumber) {
         int zeroBasedPairNumber = pairNumber - 1;
-        return new ColorPair(Color.fromIndex(zeroBasedPairNumber / numberOfMinorColors, MajorColor.class), Color.fromIndex(zeroBasedPairNumber % numberOfMinorColors, MinorColor.class));
+        return new ColorPair(IColorProvider.fromIndex(zeroBasedPairNumber / numberOfMinorColors, MajorColor.class), IColorProvider.fromIndex(zeroBasedPairNumber % numberOfMinorColors, MinorColor.class));
     }
 
     public static int getPairNumberFromColor(MajorColor major, MinorColor minor) {
