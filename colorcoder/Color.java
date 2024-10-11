@@ -1,7 +1,7 @@
 
 package colorcoder;
 
-public interface Color {
+public interface IColorProvider {
     int getIndex();
     static <E extends Enum<E> & Color> E fromIndex(int index, Class<E> enumClass) {
         for (E color : enumClass.getEnumConstants()) {
